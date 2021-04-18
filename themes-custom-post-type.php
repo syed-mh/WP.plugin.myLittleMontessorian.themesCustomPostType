@@ -2,15 +2,15 @@
 
 /**
  * @package ThemesCustomPostType
- * @author Syed Mohammed Hassan <mohammad.hassan@va8ivedigital.com>
- * @copyright 2021 Va8ive Digital
+ * @author Syed Mohammed Hassan <contactsyedmh@gmail.com>
+ * @copyright 2021 Blue Synergy
  * @license GPL-2.0-or-later
  * 
  * Plugin Name: Themes Custom Post Type
- * Description: This is a custom plugin developed for Shaping Nutrition that adds a custom post type with the name "Themes". This plugin requires the free or PRO version of ACF to be installed.
+ * Description: This is a custom plugin developed for My Little Montessorian that adds a custom post type with the name "Themes". This plugin requires the free or PRO version of ACF to be installed.
  * Version: 0.0.1
  * Author: Syed Mohammed Hassan
- * Author URI: https://va8ivedigital.com/
+ * Author URI: https://syedmh.com/
  * Text Domain: themes=custom-post-type
  */
 
