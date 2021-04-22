@@ -8,7 +8,7 @@
  * 
  * Plugin Name: Themes Custom Post Type
  * Description: This is a custom plugin developed for My Little Montessorian that adds a custom post type with the name "Themes". This plugin requires the free or PRO version of ACF to be installed.
- * Version: 0.0.1
+ * Version: 1.0
  * Author: Syed Mohammed Hassan
  * Author URI: https://syedmh.com/
  * Text Domain: themes=custom-post-type
@@ -30,3 +30,19 @@
  * Security Measure
  */
 if(!defined('ABSPATH')) exit;
+
+/**
+ * Require plugin files
+ */
+require_once plugin_dir_path(__FILE__) . '/includes/cpt-theme.php';
+require_once plugin_dir_path(__FILE__) . '/includes/fields-theme.php';
+
+/**
+ * Add the custom post type to the WP loop
+ */
+add_action('init', 'mlm_themes_post_type');
+
+/**
+ * Add the single page template for brands to the WP loop
+ */
+add_filter('single_template', 'mlm_single_post_template');
